@@ -29,9 +29,9 @@ namespace FizzBuzz
                 }
                 return;
             }
-            
 
-            
+
+
 
         }
 
@@ -40,13 +40,13 @@ namespace FizzBuzz
             while (true)
             {
                 if (!int.TryParse(Console.ReadLine(), out int num1))
-                    {
+                {
                     Console.WriteLine("Podałeś nieprawidłową liczbę spróbuj jeszcze raz.");
                     continue;
-                    }
+                }
                 return num1;
             }
-            
+
 
         }
     }
