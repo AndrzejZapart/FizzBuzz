@@ -23,7 +23,14 @@ namespace FizzBuzz
                 }
             if (numtocheck % 5 == 0 & numtocheck % 3 != 0)
             {
+                
+                
+                
                 var answer = "Buzz";
+                
+                
+                
+                
                 return answer;
             }
             else 
